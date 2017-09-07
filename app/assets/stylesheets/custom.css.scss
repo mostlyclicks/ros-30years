@@ -1,0 +1,79 @@
+h1, h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#shreddin-since-87 { /*border:1px solid red;*/
+	background-image:url("/assets/HEADER.png");
+	background-size:150%;
+	background-repeat: no-repeat;
+	background-position-x:50%;
+	background-position-y:50%;
+	height:30vh;
+}
+
+#header-app-store {
+	h1 {
+		display:block;
+		font-size:28px;
+		margin:0;
+		padding-top:.8em;
+		padding-bottom:.8em;
+		margin:0 auto;
+	}
+	img {
+		margin:0 auto;
+	}
+}
+
+#rossignol-30-years {
+	margin:30px 0;
+}
+
+ul.timeline {
+	display:block;
+	background-color:#ffffff;
+	margin-top:40px;
+	padding:30px;
+	list-style: none;
+	border-radius:15px;
+	li {
+		h2 {
+			color:red;
+			margin:0;
+			font-size:18px;
+		}
+		h3 {
+			margin:0;
+			font-size:13px;
+		}
+	}
+	box-shadow:5px 5px 10px rgba(0,0,0, .2);
+}
+
+#first-decade {
+	background-image:url("/assets/BLOCK_1_BACKGROUND.png");
+	height:130vh;
+	background-size: cover;
+	background-repeat:no-repeat;
+
+}
+
+#second-decade {
+	margin-top:40px;
+	background-image:url("/assets/BLOCK_2_BACKGROUND.png");
+	height:100vh;
+	background-size: 100%;
+	/*background-repeat:no-repeat;*/
+}
+
+#third-decade {
+	background-image:url("/assets/BLOCK_3_BACKGROUND.png");
+	height:130vh;
+	background-size: cover;
+	background-repeat:no-repeat;
+
+}
+
+#thirty-year-anniversary {
+	img {margin:0 auto;}
+}

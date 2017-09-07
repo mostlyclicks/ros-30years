@@ -1,0 +1,53 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+	/*html {border:3px solid red;}*/
+	#media-query-flag {background-color:red;}
+	#media-query-flag:after {content: 'Small - 768px';}
+
+	
+	#shreddin-since-87 {
+		height:31vh;
+		background-size:130%;
+	}
+
+
+	#header-app-store {
+		img {
+			margin-top:-20%;
+		}
+	}
+
+	#first-10-years {
+		height:150vh;
+		background-size: cover;
+	}
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	/*html {border:3px solid blue;}*/
+	#media-query-flag {background-color:blue;}
+	#media-query-flag:after {content: 'Medium - 992px';}
+
+	#shreddin-since-87 {
+		height:40vh;
+		background-size:120%;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	/*html {border:3px solid green;}*/
+	#media-query-flag {background-color:green;}
+	#media-query-flag:after {content: 'Large - 1200px';}
+
+	#shreddin-since-87 {
+		height:50vh;
+		background-size:100%;
+		background-position: 50% -10px;
+	}
+}

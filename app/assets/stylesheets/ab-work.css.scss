@@ -1,0 +1,205 @@
+@charset "UTF-8";
+
+h1 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+h2 {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#mainheader {
+	background-image: url("file:///Macintosh HD/Users/andrewbraden/OneDrive - ROSSIGNOL/PROJECTS/30TH ANNIVERSARY SB/WEB ELEMENTS/HEADER.png");
+	background-repeat: no-repeat;
+	height: 850px;
+	position: relative;
+	z-index: 10;
+	
+}
+
+#headertitle { border: 3px solid red;
+	width: 40%;
+	position: absolute;
+	bottom: 30px;
+	left: 150px;
+	padding-left: 10px;
+
+}
+
+#appbuttontop {
+	width: 40%;
+	position: absolute;
+	right: 0;
+	bottom: 30px
+}
+
+.clearfix {
+	clear: both;
+}
+
+#description { border: 3px solid red;
+	width: 80%;
+	margin-left: 10%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 24px;
+
+}
+
+#description p {
+	margin-bottom: 1.5em;
+}
+
+.bold {
+	font-weight: 900;
+}
+
+#blockbackground { border: 3px solid #FFAD00;
+	background-image: url("file:///Macintosh HD/Users/andrewbraden/OneDrive - ROSSIGNOL/PROJECTS/30TH ANNIVERSARY SB/WEB ELEMENTS/BLOCK_1_BACKGROUND.png");
+	height: 4000px;
+}
+#blockone { border: 3px solid green;
+	margin-top:75px;
+	background-size: cover;
+	background-position: 0;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#blockonetext {  border: 3px solid blue;
+	width: 30%;
+	float: right;
+/*	margin-right:150px;*/
+/*	right: 150px;*/
+	padding-right: 20px;
+	padding-left: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	overflow: visible;
+	position: relative;
+	right: 150px;
+	z-index: 8;
+	background-color: white;
+	
+}
+
+#blockonetext h1 { border: 3px solid blue;
+	color: red;
+	font-size: 23px;
+	margin: 0;
+	
+}
+
+#blockonetext h2 { border: 3px solid blue;
+	font-size: 25px;
+	margin: 0;
+}
+
+#blockonetext p {
+	font-size: 20px;
+}
+
+#blockonetext li { border: 3px solid green;
+}
+
+#blockoneimg { border: 3px solid #AD00FF;
+	width: 760px;
+	margin-left: 160px;
+	position: relative;
+	z-index: 9;
+	
+}
+
+#blocktwo { border: 3px solid green;
+	margin-top:75px;
+/*	background-image: url("file:///Macintosh HD/Users/andrewbraden/OneDrive - ROSSIGNOL/PROJECTS/30TH ANNIVERSARY SB/WEB ELEMENTS/BLOCK_2_BACKGROUND.png");*/
+	background-size: cover;
+}
+
+#blocktwotext {  border: 3px solid blue;
+	width: 30%;
+	float: left;
+	margin-left:150px;
+	right: 150px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	overflow: visible;
+	z-index: 8;
+	
+}
+
+#blocktwotext h1 { border: 3px solid blue;
+	color: red;
+	font-size: 23px;
+	
+}
+
+#blocktwotext h2 { border: 3px solid blue;
+	font-size: 25px;
+}
+
+#blocktwotext p {
+	font-size: 20px;
+}
+
+#blocktwotext li { border: 3px solid green;
+}
+
+#blocktwoimg { border: 3px solid #AD00FF;
+	width: 100%;
+	
+}
+
+#blockthree { border: 3px solid green;
+	margin-top:75px;
+/*	background-image: url("file:///Macintosh HD/Users/andrewbraden/OneDrive - ROSSIGNOL/PROJECTS/30TH ANNIVERSARY SB/WEB ELEMENTS/BLOCK_3_BACKGROUND.png");*/
+}
+
+#blockthreetext {  border: 3px solid blue;
+	width: 30%;
+	float: right;
+	margin-right:150px;
+	right: 150px;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 25px;
+	overflow: visible;
+	z-index: 8;
+	
+}
+
+#blockthreetext h1 { border: 3px solid blue;
+	color: red;
+	font-size: 23px;
+	
+}
+
+#blockthreetext h2 { border: 3px solid blue;
+	font-size: 25px;
+}
+
+#blockthreetext p {
+	font-size: 20px;
+}
+
+#blockthreetext li { border: 3px solid green;
+}
+
+#blockthreeimg { border: 3px solid #AD00FF;
+	width: 760px;
+	
+}
+li { border: 3px solid red;
+	list-style: none;
+	margin-left: 0px;
+	padding-left: 0;
+	
+	
+}
+
+ul { border: 3px solid red;
+	margin-left: 0px;
+	padding-left: 0;
+}
