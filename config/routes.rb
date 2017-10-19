@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
 
-  resources 'pages'
+   resources 'pages'
+
+  # get 'pages#show'
+  # get 'pages#blackops'
 
 
   root 'pages#index'

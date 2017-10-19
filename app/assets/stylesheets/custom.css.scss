@@ -1,8 +1,8 @@
-h1, h2 {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+h1, h2, p, li {
+	font-family: Gotham, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
-#shreddin-since-87 { /*border:1px solid red;*/
+#shreddin-since-87 {
 	background-image:url("/assets/HEADER.png");
 	background-size:150%;
 	background-repeat: no-repeat;
@@ -16,7 +16,7 @@ h1, h2 {
 		display:block;
 		font-size:28px;
 		margin:0;
-		padding-top:.8em;
+		padding-top:.5em;
 		padding-bottom:.8em;
 		margin:0 auto;
 	}
@@ -37,6 +37,7 @@ ul.timeline {
 	list-style: none;
 	border-radius:15px;
 	li {
+		margin-bottom:1em;
 		h2 {
 			color:red;
 			margin:0;
@@ -45,35 +46,47 @@ ul.timeline {
 		h3 {
 			margin:0;
 			font-size:13px;
+			font-weight:800;
 		}
 	}
 	box-shadow:5px 5px 10px rgba(0,0,0, .2);
 }
 
 #first-decade {
-	background-image:url("/assets/BLOCK_1_BACKGROUND.png");
-	height:130vh;
-	background-size: cover;
+	background-image:url("/assets/BLOCK_1_BACKGROUND.jpg");
+	background-size: 750px;
+	background-position:6% 25%;
 	background-repeat:no-repeat;
-
+	img {
+		position:relative;
+		z-index:100;
+	}
 }
 
 #second-decade {
-	margin-top:40px;
-	background-image:url("/assets/BLOCK_2_BACKGROUND.png");
-	height:100vh;
-	background-size: 100%;
-	/*background-repeat:no-repeat;*/
+	background-image:url("/assets/BLOCK_2_BG_TEMP_ci.png");
+	background-size: cover;
+	background-position:50% 0%;
+	background-repeat:no-repeat;
+	.timeline {margin-top:50px;}
+	img {
+		position:relative;
+		z-index:101;
+	}
 }
 
 #third-decade {
-	background-image:url("/assets/BLOCK_3_BACKGROUND.png");
-	height:130vh;
+	background-image:url("/assets/BLOCK_3_BACKGROUND.jpg");
 	background-size: cover;
 	background-repeat:no-repeat;
-
+	.timeline {margin-top:50px;}
+	img {
+		position:relative;
+		z-index:102;
+	}
 }
 
 #thirty-year-anniversary {
 	img {margin:0 auto;}
+
 }
