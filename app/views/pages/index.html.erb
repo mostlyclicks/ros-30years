@@ -11,12 +11,24 @@
 <section id="header-app-store">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-7 col-lg-6 col-lg-offset-1">
+			<div class="col-sm-5 col-lg-6 col-lg-offset-1">
 				<h1>So much has changed,<br />
 				but the search remains the same.</h1>
 			</div>
-			<div class="col-sm-5">
-				<%= image_tag 'APP-BOX-TOP.png', class: 'img-responsive' %>
+			<div class="col-sm-6 col-lg-5" >
+				<%#= image_tag 'APP-BOX-TOP.png', class: 'img-responsive' %>
+				<div id="app-box-top">
+					<div id="app-box-top-inner">
+						<div id="rossignol-87">
+							<img src="../assets/rossignol-87.png" class="img-responsive" />
+						</div>
+						<%= link_to (image_tag 'apple.png'), 'https://itunes.apple.com/us/app/rossignol-shreddin-since-87/id1193299498?mt=8', id: 'apple' %>
+						<%= link_to (image_tag 'google.png'), 'https://play.google.com/store/apps/details?id=com.wearetopsecret.rossignol', id: 'google' %>
+
+						<h3 class="text-center" id="play-game">Play the game and enter to win a<br /><em>Limited Edition XV Sushi!</em></h3>
+					</div>
+					
+				</div>
 			</div>
 		</div>
 	</div>

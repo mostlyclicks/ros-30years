@@ -1,4 +1,4 @@
-h1, h2, p, li {
+h1, h2, h3, p, li {
 	font-family: Gotham, "Trebuchet MS", "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
@@ -8,7 +8,72 @@ h1, h2, p, li {
 	background-repeat: no-repeat;
 	background-position-x:50%;
 	background-position-y:50%;
-	height:30vh;
+	height:25vh;
+}
+
+#app-box-top {
+	margin:0 auto 0 auto;
+	border:10px solid #5043f9;
+	padding:5px;
+	background-color:#f3f4f5;
+	width:450px;
+	position:relative;
+	#app-box-top-inner {
+		border:7px solid #379fef;
+		min-height:300px;
+		position:relative;
+
+
+	}
+	
+	#rossignol-87 {
+		position:absolute;
+		left:40px;
+		top:30px;
+		width:144px;
+		height:144px;
+		background-color:#ffffff;
+		border-radius:10px;
+		box-shadow: 1px 1px 10px rgba(0,0,0,.2);
+		
+		img {
+			margin-top:17px;
+		}
+
+
+	}
+	
+	background-size:cover;
+
+	#play-game {
+			display:block;
+			position:absolute;
+			top:190px;
+			left:20px;
+		}
+	
+	
+	a#apple {
+		display:block;
+		width:146px;
+		height:40px;
+		background-color:transparent;
+		position:absolute;
+		left:220px;
+		top:52px;
+		color:transparent;
+	}
+
+	a#google {
+		display:block;
+		width:146px;
+		height:40px;
+		background-color:transparent;
+		position:absolute;
+		left:220px;
+		top:100px;
+		color:transparent;
+	}
 }
 
 #header-app-store {

@@ -43,6 +43,13 @@
 			margin-top:-50px;
 		}
 	}
+	#app-box-top {
+		width:430px;
+		margin-top:-140px;
+	}
+	#rossignol-87 {left:0px;}
+	a#apple {}
+	a#google {}
 
 }
 
@@ -92,6 +99,10 @@
 		}
 
 	}
+	#app-box-top {
+		width:450px;
+		margin-top:-140px;
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -102,7 +113,6 @@
 
 	#shreddin-since-87 {
 		/*min-height:60vh;*/
-		min-height:430px;
 		background-size:100%;
 		background-position: 50% -10px;
 	}
