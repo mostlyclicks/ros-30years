@@ -22,8 +22,6 @@ h1, h2, h3, p, li {
 		border:7px solid #379fef;
 		min-height:300px;
 		position:relative;
-
-
 	}
 	
 	#rossignol-87 {
@@ -35,16 +33,12 @@ h1, h2, h3, p, li {
 		background-color:#ffffff;
 		border-radius:10px;
 		box-shadow: 1px 1px 10px rgba(0,0,0,.2);
-		
 		img {
 			margin-top:17px;
 		}
-
-
 	}
 	
-	background-size:cover;
-
+	
 	#play-game {
 			display:block;
 			position:absolute;
@@ -156,3 +150,7 @@ ul.timeline {
 	img {margin:0 auto;}
 
 }
+
+#bottom-app-links img {
+		margin-top:0px;
+	}

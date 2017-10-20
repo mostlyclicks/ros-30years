@@ -50,6 +50,9 @@
 	#rossignol-87 {left:0px;}
 	a#apple {}
 	a#google {}
+	#bottom-app-links {
+		img {margin-top:0px;}
+	}
 
 }
 
@@ -103,6 +106,9 @@
 		width:450px;
 		margin-top:-140px;
 	}
+	#bottom-app-links {
+		img {margin-top:0px;}
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -147,6 +153,12 @@
 		height:auto;
 		.timeline {
 			margin-top:-50px;
+		}
+	}
+
+	#bottom-app-links {
+		img {
+			margin-top:0px;
 		}
 	}
 }
