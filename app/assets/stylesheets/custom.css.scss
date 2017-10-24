@@ -84,6 +84,8 @@ h1, h2, h3, p, li {
 	}
 }
 
+
+
 #rossignol-30-years {
 	margin:30px 0;
 }
@@ -116,13 +118,60 @@ ul.timeline {
 	background-size: 750px;
 	background-position:6% 25%;
 	background-repeat:no-repeat;
+	position:relative;
 	img {
 		position:relative;
 		z-index:100;
 	}
 }
 
+#the-avion {
+	position:absolute;
+	top:70px;
+	left:-70px;
+	z-index:5000;
+
+}
+
+#seone {
+	position:absolute;
+	top:430px;
+	right:-65px;
+	z-index:5002;
+}
+
+#richards {
+	position:absolute;
+	top:70px;
+	left:-85px;
+	z-index:5003;
+
+}
+
+#xv-pro {
+	position:absolute;
+	top:630px;
+	right:-65px;
+	z-index:5004;
+}
+
+#one-mag {
+	position:absolute;
+	top:70px;
+	left:-65px;
+	z-index:5005;
+
+}
+
+#sushi {
+	position:absolute;
+	top:550px;
+	right:-65px;
+	z-index:5006;
+}
+
 #second-decade {
+	position:relative;
 	background-image:url("/assets/BLOCK_2_BG_TEMP_ci.png");
 	background-size: cover;
 	background-position:50% 0%;
@@ -135,6 +184,7 @@ ul.timeline {
 }
 
 #third-decade {
+	position:relative;
 	background-image:url("/assets/BLOCK_3_BACKGROUND.jpg");
 	background-size: cover;
 	background-repeat:no-repeat;
